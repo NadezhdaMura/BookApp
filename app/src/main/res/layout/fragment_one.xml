@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/whiteForReading">
+
+
+    <ImageView
+        android:id="@+id/arrowForward"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/ic_arrow"
+        />
+
+    <ImageView
+        android:id="@+id/arrowBack"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/ic_arrow_back"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="15dp"
+        android:gravity="center"
+        android:text="@string/page1"
+        android:textColor="@color/black"
+        android:textSize="10.5sp" />
+
+    <TextView
+        android:id="@+id/page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="9dp"
+        android:gravity="center|bottom"
+        android:text="1"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
