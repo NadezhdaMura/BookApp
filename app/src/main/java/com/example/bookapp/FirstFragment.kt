@@ -26,6 +26,8 @@ class FirstFragment : Fragment() {
         arrowForward.setOnClickListener {
             page++
             page2++
+
+            
             when (page) {
                 1 -> { text.text = getString(list.get(page))
                     arrowBack.visibility = View.VISIBLE
